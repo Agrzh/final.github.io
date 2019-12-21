@@ -1,0 +1,38 @@
+body{
+  background: radial-gradient(rgb(240,240,240),rgb(190, 190,190));
+}
+
+.step{
+  width: 900px;
+  padding: 40px;
+
+  font-size: 28px;
+  line-height: 1.5;
+
+  opacity: 0.1;
+  transition: opacity 1.5s;
+
+}
+
+.step.active{
+  opacity: 1;
+}
+
+.image{
+  width: 1200px;
+
+}
+
+#result{
+  margin-left:-300px;
+}
+#result1{
+justify-content: center;
+  font-size: 100px;
+  align-items: center;
+  align-content: center;
+  margin-left: 200px;
+}
+#result2{
+  margin-left:-300px;
+  margin-top: -200px;
